@@ -1,4 +1,4 @@
-# 🗊 [`process_list_structure()`](./processListStructure.py)
+# 🖨️ [`process_list_structure()`](./processListStructure.py)
 **Processes categorized data with automatic structure detection and comprehensive error handling for various edge cases.**
 
 ## 🔭 Overview
