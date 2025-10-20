@@ -13,7 +13,7 @@
 '''
 
 
-def process_list_structure(data):
+def simple_processor(data):
  # TODO 1: Unpack data into category_names and category_items
     # Tuple Unpacking Assignment Method 1: Direct unpacking (more Pythonic)
     # category_names, category_items = data 
@@ -86,6 +86,8 @@ def process_list_structure(data):
     '''
 
  # TODO 2: Iterate over category_names with index, and print the category name
+        # uses enumerate() with tuple unpacking to iterate through the category_names list 
+        # while keeping track of both the index and the value
     for i, category_name in enumerate(category_names):
         print(f"Category: '{category_name}'")
         
@@ -198,7 +200,7 @@ def test_process_any_category():
     print(f"  Category names: {single_category_data[0]}")
     print(f"  Category items: {single_category_data[1]}")
     print("\nOutput:")
-    process_list_structure(single_category_data)
+    simple_processor(single_category_data)
     
     # Test Case 2: Multiple Categories Structure
     print("--- Test Case 2: Multiple Categories Structure ---")
@@ -215,7 +217,7 @@ def test_process_any_category():
     print(f"  Category names: {multiple_categories_data[0]}")
     print(f"  Category items: {multiple_categories_data[1]}")
     print("\nOutput:")
-    process_list_structure(multiple_categories_data)
+    simple_processor(multiple_categories_data)
     
     # Test Case 3: Edge Case - Single Category with One Item
     print("--- Test Case 3: Edge Case - Single Category with One Item ---")
@@ -228,7 +230,7 @@ def test_process_any_category():
     print(f"  Category names: {single_item_category[0]}")
     print(f"  Category items: {single_item_category[1]}")
     print("\nOutput:")
-    process_list_structure(single_item_category)
+    simple_processor(single_item_category)
     
     # Test Case 4: Edge Case - Empty Category
     print("--- Test Case 4: Edge Case - Empty Category ---")
@@ -241,7 +243,7 @@ def test_process_any_category():
     print(f"  Category names: {empty_category[0]}")
     print(f"  Category items: {empty_category[1]}")
     print("\nOutput:")
-    process_list_structure(empty_category)
+    simple_processor(empty_category)
     
     # Test Case 5: Edge Case - Multiple Categories with Some Empty
     print("--- Test Case 5: Edge Case - Multiple Categories with Some Empty ---")
@@ -258,7 +260,7 @@ def test_process_any_category():
     print(f"  Category names: {mixed_categories[0]}")
     print(f"  Category items: {mixed_categories[1]}")
     print("\nOutput:")
-    process_list_structure(mixed_categories)
+    simple_processor(mixed_categories)
     
     # Test Case 6: Edge Case - Mismatched Category Names and Items Count
     print("--- Test Case 6: Edge Case - More Category Names Than Items ---")
@@ -271,7 +273,7 @@ def test_process_any_category():
     print(f"  Category names: {mismatched_categories[0]}")
     print(f"  Category items: {mismatched_categories[1]}")
     print("\nOutput:")
-    process_list_structure(mismatched_categories)
+    simple_processor(mismatched_categories)
     
     print("=" * 50)
     print("TESTING COMPLETED")
