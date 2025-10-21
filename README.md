@@ -8,10 +8,6 @@
     - creates pairs of index and value from an iterable
 
 
-
-
-
-
 ## Custom Functions
 
 ### Robust data processing functions that intelligently handles both single and multiple category list structures

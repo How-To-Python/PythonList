@@ -9,12 +9,50 @@ data = [
 '''
 def compact_processor(data):
     category_names, category_items = data[0], data[1]
+
+   
     
     # Handle both single flat list and multiple nested lists
     if not isinstance(category_items[0], list):
+
+
+        '''
+            Why wrap the single list?
+            - zip() function later in the code expects to pair each category name with a list of items
+
+
+            - When there's only one category with a flat list of items, we need to wrap that list into another list
+            so that it matches the expected structure of multiple categories with nested lists. This ensures that when we use zip() to pair category names with their items, each category name correctly
+            corresponds to a list of items, even if there's only one category.
+            - zip() pairs each category name with its full item list
+            
+            
+            
+            
+            
+            
+            
+            
+            
+              - Ensures consistent structure for processing
+            - Avoids mismatched pairs in iteration
+            - Simplifies downstream logic
+            - Enables uniform handling of categories
+            - Prevents errors in processing loops
+            - Facilitates scalability for future categories
+            
+        '''
         items_lists = [category_items]  # Wrap single list
     else:
         items_lists = category_items    # Use nested lists
+    
+    
+    
+    
+    
+    
+    
+    
     
     # Process each category
     # tuple unpacking with the zip() function to iterate through two lists simultaneously
