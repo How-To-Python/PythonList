@@ -1,5 +1,11 @@
-# 🐍 Python Lists - Complete Interactive Guide Notebook
+# 🐍 Python Lists - Jupyter Notebook Interactive Guide 
 **Comprehensive Python Lists guide! Hands-on examples and demonstrations to help you master Python lists.**
+
+## 🔧 Prerequisites
+
+- **Python 3.6+** installed on your system
+- **Basic Python knowledge** (variables, functions, basic syntax)
+- **Jupyter Notebook** (optional, for notebook experience)
 
 ## 🎮 Jupyter Notebook Interactive Features
 
@@ -8,14 +14,15 @@
 - **Rich Documentation** - Markdown explanations
 - **Persistent Results** - Save your work
 
-## 🔑 Key Features of Lists
+
+<!-- ## 🔑 Key Features of Lists
 
 1. **Lists are mutable** - You can change their contents after creation
 2. **Zero-based indexing** - First element is at index 0
 3. **Negative indexing** - Count from the end with -1, -2, etc.
 4. **Slicing is powerful** - Use `[start:stop:step]` to extract sublists
 5. **List comprehensions** - Elegant way to create lists with `[expr for item in iterable]`
-6. **Many built-in methods** - append(), extend(), remove(), pop(), etc.
+6. **Many built-in methods** - append(), extend(), remove(), pop(), etc. -->
 
 ## 🎯 How to Use This Notebook
 1. **Select a List concept:** by clicking on an item under Table of Contents
@@ -38,7 +45,7 @@
 11. [**Sorting & Reversing**](./Soring_Reversing_List.ipynb): Organize your data effectively
 12. [**Type Conversions**](./Coverting_List.ipynb): Convert between lists and other data types
 
-### Advanced Features
+<!-- ### Advanced Features
 
 - **🔍 Tuple Unpacking** - Elegant data extraction
 - **📦 List Wrapping** - Uniform data processing
@@ -53,7 +60,7 @@
 - Use `enumerate()` when you need both index and value
 - Use `in` operator to check membership
 - Consider using sets for frequent membership testing
-- Be careful with mutable default arguments in functions
+- Be careful with mutable default arguments in functions -->
 
 ### 🎯 Keep Practicing!
 
