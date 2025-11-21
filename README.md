@@ -1,6 +1,6 @@
 # 🐍 Complete Python List Guide
 **Python List learning resource that contains everything you need to master Python lists, from basic concepts to advanced techniques.**
-
+<!-- 
 ## 🔑 Key Features of Lists
 
 1. **Lists are mutable** - You can change their contents after creation
@@ -44,7 +44,7 @@
 - **Pandas** - Data Analysis
 
 
-**Happy Learning! 🐍✨**
+**Happy Learning! 🐍✨** -->
 
 
 
