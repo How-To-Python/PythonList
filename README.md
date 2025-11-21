@@ -3,7 +3,8 @@
 - []
 - []
 - []
-- []
+- [Nested List Comprehension](./Notebooks/Nested_List_Comprehension.ipynb)
+    - flatten list of Dictionaries that contain nested list into a single list
 - []
 
 
