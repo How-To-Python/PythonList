@@ -1,5 +1,15 @@
-# 🐍 Complete Python List Guide
-**Python List learning resource that contains everything you need to master Python lists, from basic concepts to advanced techniques.**
+# 🐍 Python List Guide
+
+- []
+- []
+- []
+- []
+- []
+
+
+
+
+<!-- **Python List learning resource that contains everything you need to master Python lists, from basic concepts to advanced techniques.** -->
 <!-- 
 ## 🔑 Key Features of Lists
 
